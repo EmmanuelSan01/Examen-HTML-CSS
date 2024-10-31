@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+ width: 100%;
+ position: fixed;
+ z-index: 10;
+ 
+}
+
+.container_menu {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    display: flex;
+    background-color: lightsteelblue;
+    width: auto;
+    justify-content: right;
+    padding: 0;
+    margin: 0;
+  }
+
+.nav_menu {
+    display: grid;
+    width: 50%;
+    grid-template-columns: repeat(6, 0.5fr);
+    margin: 0;
+
+  }
+
+.menu_text {
+  justify-content: center;
+  display: flex;
+  position: relative;
+  max-width: 100%;
+  display: inline-flex;
+  text-align: center;
+}
+
+.home {
+    display: block;
+    position: relative;
+    width: 100%;
+    background-image: url("../multimedia/propiedades.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    padding: 0;
+    margin: 0;
+  }
+
+  .blank {
+    width: 100vw;
+  }
+
+.container_home {
+   height: 100vh;
+   width: auto;
+   display: grid;
+   grid-template-rows: repeat(2, 1fr);
+  }
+
+.block {
+    width: 40%;
+    height: 50%;
+    justify-self: center;
+    text-align: center;
+    align-items:center;
+    background-color: white;
+    font-size: 2em;
+}
+
+.button1{
+    background-color: white;
+    width: 30%;
+    height: 3lh;
+}
+
+
+.button2{
+    background-color: darkslategray;
+    color: white;
+    width: 30%;
+    height:3lh;
+}
+
+.about {
+    width: 100%;
+    height: 75vh;
+    background-color: darkslategray;
+}
+
+.container_about{
+    position: relative;
+    width: auto;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.about_text {
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 50%;
+    margin-right: 5%;
+    color: white;
+}
+
+.about_text > p {
+    font-size: 2vw;
+}
+
+.about_text > h1 {
+    font-size: 2.5vw;
+}
+
+.about_text {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.about_img {
+    width: 50%;
+    height: auto;
+    margin: 1em;
+    background-image: url("../multimedia/personas.jpg");
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+}
+
+.ads {
+    width: 100%;
+    height:70vh;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.container_ads{
+    width: auto;
+    height: 100%;
+    display: grid;
+    background-color:antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+.ads > h1{
+    margin: 0;
+    padding: 1lh;
+}
+
+.ads_col-1 {
+    width: 80%;
+    height: auto;
+    justify-self: center;
+}
+
+.ads_img {
+    background-image: url("../multimedia/casa-1.jpg");
+    width: 100%;
+    height: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ads_text {
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.ads_col-2 {
+    width: 80%;
+    height: auto;
+    justify-self: center;
+    margin-top: 10%;
+}
+
+.ads_col-2 > .ads_img {
+    background-image: url("../multimedia/casa-2.jpg");   
+}
+
+.ads_col-3 {
+    width: 80%;
+    height: auto;
+    justify-self: center;
+}
+
+.ads_col-3 > .ads_img {
+    background-image: url("../multimedia/casa-3.jpg");   
+}
+
+.sales {
+    width: 100%;
+    height:70vh;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.container_sales{
+    width: auto;
+    height: 100%;
+    display: grid;
+    background-color:antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+.sales > h1{
+    margin: 0;
+    padding: 1lh;
+}
+
+.sales_col-1 {
+    width: 80%;
+    height: auto;
+    justify-self: center;
+}
+
+.sales_img {
+    background-image: url("../multimedia/casa-4.jpg");
+    width: 100%;
+    height: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sales_text {
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.sales_col-2 {
+    width: 80%;
+    height: auto;
+    justify-self: center;
+    margin-top: 10%;
+}
+
+.sales_col-2 > .sales_img {
+    background-image: url("../multimedia/casa-5.jpg");   
+}
+
+.sales_col-3 {
+    width: 80%;
+    height: auto;
+    justify-self: center;
+}
+
+.sales_col-3 > .sales_img {
+    background-image: url("../multimedia/casa-6.jpg");   
+}
